@@ -1,0 +1,1 @@
+先打开 ssymon.com然后点文章-分类。再点VMware最后点击VMware Workstation Pro 16 官方正式版下载（含密钥）就可以啦！（向下滑就有密钥了） 作者：电脑君 https://www.bilibili.com/read/cv33606054/?spm_id_from=333.999.0.0&jump_opus=1 出处：bilibili
