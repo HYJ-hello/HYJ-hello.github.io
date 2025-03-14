@@ -75,7 +75,7 @@ ga_domain: huangxuan.me
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
 sidebar-about-description: "要做一个有 flag 的程序员 <br> "
-sidebar-avatar: https://github.com/Huxpro.png # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: https://onecode-media.oss-cn-hangzhou.aliyuncs.com/avatar/bb024166a7d844e68a8b8c4cb0317110/2.png # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
 featured-tags: true # whether or not using Feature-Tags
