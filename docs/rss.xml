@@ -1,3 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>HYJ Space</title><link>https://HYJ-hello.github.io</link><description>相信是一种力量</description><copyright>HYJ Space</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://HYJ-hello.github.io</link></image><lastBuildDate>Sat, 31 Jan 2026 03:44:28 +0000</lastBuildDate><managingEditor>HYJ Space</managingEditor><ttl>60</ttl><webMaster>HYJ Space</webMaster><item><title>test-1</title><link>https://HYJ-hello.github.io/post/test-1.html</link><description>test
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>HYJ Space</title><link>https://HYJ-hello.github.io</link><description>相信是一种力量</description><copyright>HYJ Space</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://HYJ-hello.github.io</link></image><lastBuildDate>Sat, 31 Jan 2026 04:02:44 +0000</lastBuildDate><managingEditor>HYJ Space</managingEditor><ttl>60</ttl><webMaster>HYJ Space</webMaster><item><title>[项目分享]一款未来化的在线元素周期表！</title><link>https://HYJ-hello.github.io/post/%5B-xiang-mu-fen-xiang-%5D-yi-kuan-wei-lai-hua-de-zai-xian-yuan-su-zhou-qi-biao-%EF%BC%81.html</link><description>今天，在github上摸鱼时偶然间发现了这玩意(bushi，感觉挺有意思，就分享一下
+
+# 项目概览
+链接：https://github.com/SeanWong17/Future-Style-Periodic-Table
+
+&lt;img width='1346' height='987' alt='Image' src='https://github.com/user-attachments/assets/60c0f263-3d61-4920-9132-ba7d8b65d9c6' /&gt;
+
+&lt;img width='1000' height='641' alt='Image' src='https://github.com/user-attachments/assets/307387c2-0885-4ecd-b2b7-a91ef5d9eef5' /&gt;
+
+# 项目特点
+Future Style Periodic Table 是一个运行于现代浏览器的交互式化学元素周期表。</description><guid isPermaLink="true">https://HYJ-hello.github.io/post/%5B-xiang-mu-fen-xiang-%5D-yi-kuan-wei-lai-hua-de-zai-xian-yuan-su-zhou-qi-biao-%EF%BC%81.html</guid><pubDate>Sat, 31 Jan 2026 04:02:15 +0000</pubDate></item><item><title>test-1</title><link>https://HYJ-hello.github.io/post/test-1.html</link><description>test
 Hello World！。</description><guid isPermaLink="true">https://HYJ-hello.github.io/post/test-1.html</guid><pubDate>Sat, 31 Jan 2026 03:39:52 +0000</pubDate></item></channel></rss>
