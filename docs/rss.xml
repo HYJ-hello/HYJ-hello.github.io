@@ -1,2 +1,103 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>HYJ Space</title><link>https://HYJ-hello.github.io</link><description>相信是一种力量</description><copyright>HYJ Space</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://HYJ-hello.github.io</link></image><lastBuildDate>Mon, 27 Apr 2026 17:26:13 +0000</lastBuildDate><managingEditor>HYJ Space</managingEditor><ttl>60</ttl><webMaster>HYJ Space</webMaster></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>HYJ Space</title><link>https://HYJ-hello.github.io</link><description>相信是一种力量</description><copyright>HYJ Space</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://HYJ-hello.github.io</link></image><lastBuildDate>Tue, 28 Apr 2026 17:50:07 +0000</lastBuildDate><managingEditor>HYJ Space</managingEditor><ttl>60</ttl><webMaster>HYJ Space</webMaster><item><title>[Farbic 1.20.1 MOD]开发笔记2</title><link>https://HYJ-hello.github.io/post/%5BFarbic%201.20.1%20MOD%5D-kai-fa-bi-ji-2.html</link><description># 加入物品到创造模式物品栏
+
+## 法一，加入到原版物品栏
+
+进入ModItems文件
+
+先定义一个方法来加入
+
+```java
+private static void addItemToItemGroup(FabricItemGroupEntries entries){
+    entries.add(物品名称，不是id，不打引号)；
+}
+//FabricItemGroupEntries entries是管理加入物品栏的api，将其回调，就可以在这个方法中调用了
+```
+
+接下来，需要在辅助注册中配置其具体分类到哪个标签页
+
+```java
+public  static void registerItems() {
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.NATURAL).register(ModItems::addItemToItemGroup);
+        //ItemGroupEvents.modifyEntriesEvent(...)这是一个事件触发器，专门用来修改创造模式物品栏。</description><guid isPermaLink="true">https://HYJ-hello.github.io/post/%5BFarbic%201.20.1%20MOD%5D-kai-fa-bi-ji-2.html</guid><pubDate>Fri, 27 Feb 2026 04:33:50 +0000</pubDate></item><item><title>[Farbic 1.20.1 MOD]开发笔记1</title><link>https://HYJ-hello.github.io/post/%5BFarbic%201.20.1%20MOD%5D-kai-fa-bi-ji-1.html</link><description># 注册新物品
+
+## 完善注册系统
+
+在Items.java文件下复制其原生的物品注册代码
+
+``` java
+public static Item register(String id, Item item) {
+		return register(new Identifier(id), item);
+	}
+
+	public static Item register(Identifier id, Item item) {
+		return register(RegistryKey.of(Registries.ITEM.getKey(), id), item);
+	}
+
+	public static Item register(RegistryKey&lt;Item&gt; key, Item item) {
+		if (item instanceof BlockItem) {
+			((BlockItem)item).appendBlocks(Item.BLOCK_ITEMS, item);
+		}
+
+		return Registry.register(Registries.ITEM, key, item);
+	}
+```
+
+将其粘贴到新建的item软件包的ModItem类中
+
+&lt;img width='392' height='122' alt='Image' src='https://github.com/user-attachments/assets/8cfac139-acf4-4eff-91d2-c9e8878c7291' /&gt;
+
+&lt;img width='1366' height='728' alt='Image' src='https://github.com/user-attachments/assets/c5c7fc9b-e623-4887-9a3c-c6d82d2a8292' /&gt;
+
+并将其默认的命名空间改为自己的数据包的命名空间
+
+&lt;img width='1366' height='728' alt='Image' src='https://github.com/user-attachments/assets/3d1b64d7-02d2-4581-a14e-289637951a21' /&gt;
+
+## 开始注册物品
+
+仿照原版物品注册的格式在ModItems中注册
+
+&lt;img width='1366' height='728' alt='Image' src='https://github.com/user-attachments/assets/d1205609-c744-44f0-9864-42030558af19' /&gt;
+
+## 辅助注册方法
+
+在末尾加上
+
+``` java
+//辅助注册
+    public  static void registerItems() {
+
+    }
+//暂时不用写东西
+```
+
+&gt; 注意，要到模组主类中调用(这里的主类是TestMod)
+
+&lt;img width='1366' height='728' alt='Image' src='https://github.com/user-attachments/assets/6f0fbdb4-4e25-4eba-8e4c-9aa435c69b74' /&gt;
+
+## 添加贴图,语言文件
+
+新建lang，models，textures文件夹
+
+&lt;img width='397' height='227' alt='Image' src='https://github.com/user-attachments/assets/c706b8a1-fc9b-4cc5-8a8d-dde74ecd8d59' /&gt;
+
+在lang文件夹下创建en_us.json文件来存放英文的物品名称，zn_cn.json存中文
+
+&lt;img width='1366' height='728' alt='Image' src='https://github.com/user-attachments/assets/0f11f8fe-9da8-4308-bc6c-148b1422cad2' /&gt;
+
+&lt;img width='1366' height='728' alt='Image' src='https://github.com/user-attachments/assets/44d5685f-6e50-4dae-bb8b-73bcc01a6dd8' /&gt;
+
+接下来，在models和textures文件夹中各建一个item(物品)和一个block(方块)
+
+再在models/item中创建一个test_item.json文件用来配置物品。</description><guid isPermaLink="true">https://HYJ-hello.github.io/post/%5BFarbic%201.20.1%20MOD%5D-kai-fa-bi-ji-1.html</guid><pubDate>Fri, 27 Feb 2026 04:30:29 +0000</pubDate></item><item><title>[项目分享]一款未来化的在线元素周期表！</title><link>https://HYJ-hello.github.io/post/%5B-xiang-mu-fen-xiang-%5D-yi-kuan-wei-lai-hua-de-zai-xian-yuan-su-zhou-qi-biao-%EF%BC%81.html</link><description>今天，在github上摸鱼时偶然间发现了这玩意(bushi，感觉挺有意思，就分享一下
+
+# 项目概览
+链接：https://github.com/SeanWong17/Future-Style-Periodic-Table
+
+&lt;img width='1346' height='987' alt='Image' src='https://github.com/user-attachments/assets/60c0f263-3d61-4920-9132-ba7d8b65d9c6' /&gt;
+
+&lt;img width='1000' height='641' alt='Image' src='https://github.com/user-attachments/assets/307387c2-0885-4ecd-b2b7-a91ef5d9eef5' /&gt;
+
+# 项目特点
+Future Style Periodic Table 是一个运行于现代浏览器的交互式化学元素周期表。</description><guid isPermaLink="true">https://HYJ-hello.github.io/post/%5B-xiang-mu-fen-xiang-%5D-yi-kuan-wei-lai-hua-de-zai-xian-yuan-su-zhou-qi-biao-%EF%BC%81.html</guid><pubDate>Sat, 31 Jan 2026 04:02:15 +0000</pubDate></item><item><title>test-1</title><link>https://HYJ-hello.github.io/post/test-1.html</link><description>test
+Hello World！。</description><guid isPermaLink="true">https://HYJ-hello.github.io/post/test-1.html</guid><pubDate>Sat, 31 Jan 2026 03:39:52 +0000</pubDate></item></channel></rss>
