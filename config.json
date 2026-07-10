@@ -3,5 +3,12 @@
     "subTitle":"相信是一种力量",
     "avatarUrl":"https://github.githubassets.com/favicons/favicon.svg",
     "GMEEK_VERSION":"last",
-    "email":"3226268396@qq.com"
+    "email":"3226268396@qq.com",
+    "startSite":"01/31/2026",
+    "singlePage":["about"],
+    "bottomText":"转载请注明出处",
+    "allHead":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekBSZ.js'></script>",
+    "script":"<script src='https://blog.meekdai.com/Gmeek/plugins/GmeekTOC.js'></script><script src='https://blog.meekdai.com/Gmeek/plugins/lightbox.js'></script>",
+
+    
 }
