@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>HYJ Space</title><link>https://HYJ-hello.github.io</link><description>相信是一种力量</description><copyright>HYJ Space</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://HYJ-hello.github.io</link></image><lastBuildDate>Fri, 10 Jul 2026 03:02:31 +0000</lastBuildDate><managingEditor>HYJ Space</managingEditor><ttl>60</ttl><webMaster>HYJ Space</webMaster><item><title>变量（variable）</title><link>https://HYJ-hello.github.io/post/bian-liang-%EF%BC%88variable%EF%BC%89.html</link><description># 变量
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>HYJ Space</title><link>https://HYJ-hello.github.io</link><description>相信是一种力量</description><copyright>HYJ Space</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://HYJ-hello.github.io</link></image><lastBuildDate>Fri, 10 Jul 2026 03:23:04 +0000</lastBuildDate><managingEditor>HYJ Space</managingEditor><ttl>60</ttl><webMaster>HYJ Space</webMaster><item><title>变量（variable）</title><link>https://HYJ-hello.github.io/post/bian-liang-%EF%BC%88variable%EF%BC%89.html</link><description># 变量
 
 ## 格式
 
@@ -277,4 +277,6 @@ public static Item register(String id, Item item) {
 
 # 项目特点
 Future Style Periodic Table 是一个运行于现代浏览器的交互式化学元素周期表。</description><guid isPermaLink="true">https://HYJ-hello.github.io/post/%5B-xiang-mu-fen-xiang-%5D-yi-kuan-wei-lai-hua-de-zai-xian-yuan-su-zhou-qi-biao-%EF%BC%81.html</guid><pubDate>Sat, 31 Jan 2026 04:02:15 +0000</pubDate></item><item><title>test-1</title><link>https://HYJ-hello.github.io/post/test-1.html</link><description>test
-Hello World！。</description><guid isPermaLink="true">https://HYJ-hello.github.io/post/test-1.html</guid><pubDate>Sat, 31 Jan 2026 03:39:52 +0000</pubDate></item></channel></rss>
+Hello World！。</description><guid isPermaLink="true">https://HYJ-hello.github.io/post/test-1.html</guid><pubDate>Sat, 31 Jan 2026 03:39:52 +0000</pubDate></item><item><title>关于我</title><link>https://HYJ-hello.github.io/about.html</link><description># 关于 HYJ
+
+你好，欢迎来到我的博客空间。</description><guid isPermaLink="true">https://HYJ-hello.github.io/about.html</guid><pubDate>Fri, 10 Jul 2026 03:22:34 +0000</pubDate></item></channel></rss>
