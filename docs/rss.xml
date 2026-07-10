@@ -1,5 +1,31 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>HYJ Space</title><link>https://HYJ-hello.github.io</link><description>相信是一种力量</description><copyright>HYJ Space</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://HYJ-hello.github.io</link></image><lastBuildDate>Fri, 10 Jul 2026 03:01:21 +0000</lastBuildDate><managingEditor>HYJ Space</managingEditor><ttl>60</ttl><webMaster>HYJ Space</webMaster><item><title>字面量(Literal)</title><link>https://HYJ-hello.github.io/post/zi-mian-liang-%28Literal%29.html</link><description># 字面量(Literal)
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>HYJ Space</title><link>https://HYJ-hello.github.io</link><description>相信是一种力量</description><copyright>HYJ Space</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://HYJ-hello.github.io</link></image><lastBuildDate>Fri, 10 Jul 2026 03:02:31 +0000</lastBuildDate><managingEditor>HYJ Space</managingEditor><ttl>60</ttl><webMaster>HYJ Space</webMaster><item><title>变量（variable）</title><link>https://HYJ-hello.github.io/post/bian-liang-%EF%BC%88variable%EF%BC%89.html</link><description># 变量
+
+## 格式
+
+&gt; 数据类型 变量名 = 数据值;
+
+```java
+package com.variable;
+//02-变量知识点
+public class Variable_Demo {
+    public static void main(String[] args) {
+        System.out.println('主入口运行');
+
+        int num = 666;
+        double d = 666.6;
+        boolean b = true;
+        char c = 'a';
+        String str = 'HYJ666';
+        System.out.println(num);
+        System.out.println(d);
+        System.out.println(b);
+        System.out.println(c);
+        System.out.println(str);
+    }
+}
+
+```。</description><guid isPermaLink="true">https://HYJ-hello.github.io/post/bian-liang-%EF%BC%88variable%EF%BC%89.html</guid><pubDate>Fri, 10 Jul 2026 03:02:06 +0000</pubDate></item><item><title>字面量(Literal)</title><link>https://HYJ-hello.github.io/post/zi-mian-liang-%28Literal%29.html</link><description># 字面量(Literal)
 
 ```java
 //01-字面量知识点
