@@ -1,5 +1,30 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>HYJ Space</title><link>https://HYJ-hello.github.io</link><description>相信是一种力量</description><copyright>HYJ Space</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://HYJ-hello.github.io</link></image><lastBuildDate>Fri, 10 Jul 2026 02:44:51 +0000</lastBuildDate><managingEditor>HYJ Space</managingEditor><ttl>60</ttl><webMaster>HYJ Space</webMaster><item><title>Test2</title><link>https://HYJ-hello.github.io/post/Test2.html</link><description>又一个test文件罢了。</description><guid isPermaLink="true">https://HYJ-hello.github.io/post/Test2.html</guid><pubDate>Fri, 10 Jul 2026 02:42:00 +0000</pubDate></item><item><title>BeautifulSoup`和 csv 的常用方法速查表</title><link>https://HYJ-hello.github.io/post/BeautifulSoup%60-he-%20csv%20-de-chang-yong-fang-fa-su-cha-biao.html</link><description>---
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>HYJ Space</title><link>https://HYJ-hello.github.io</link><description>相信是一种力量</description><copyright>HYJ Space</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://HYJ-hello.github.io</link></image><lastBuildDate>Fri, 10 Jul 2026 03:01:21 +0000</lastBuildDate><managingEditor>HYJ Space</managingEditor><ttl>60</ttl><webMaster>HYJ Space</webMaster><item><title>字面量(Literal)</title><link>https://HYJ-hello.github.io/post/zi-mian-liang-%28Literal%29.html</link><description># 字面量(Literal)
+
+```java
+//01-字面量知识点
+package com.literal;
+
+public class Literal_Demo {
+    public static void main(String[] args) {
+        System.out.println('主入口运行');
+        //输出整型字面量
+        System.out.println(666);
+        //输出浮点型字面量
+        System.out.println(666.6);
+        //输出字符型字面量
+        System.out.println('a');
+        //输出字符串字面量
+        System.out.println('hello world');
+        //输出布尔型字面量
+        System.out.println(true);
+        System.out.println(false);
+    }
+}
+
+```
+
+。</description><guid isPermaLink="true">https://HYJ-hello.github.io/post/zi-mian-liang-%28Literal%29.html</guid><pubDate>Fri, 10 Jul 2026 03:00:57 +0000</pubDate></item><item><title>Test2</title><link>https://HYJ-hello.github.io/post/Test2.html</link><description>又一个test文件罢了。</description><guid isPermaLink="true">https://HYJ-hello.github.io/post/Test2.html</guid><pubDate>Fri, 10 Jul 2026 02:42:00 +0000</pubDate></item><item><title>BeautifulSoup`和 csv 的常用方法速查表</title><link>https://HYJ-hello.github.io/post/BeautifulSoup%60-he-%20csv%20-de-chang-yong-fang-fa-su-cha-biao.html</link><description>---
 
 ## 🍜 BeautifulSoup 常用方法
 
